@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name ="app_theme">#ee2c2c</color>
+    <color name ="gray">#C3B9B9</color>
+    <color name="app_theme_light">#ffa07a</color>
+    <color name="edit_text_border">#a52a2a</color>
+    <color name ="m3_highlighted_text">#a52a2a</color>
+    <color name ="hintTextColor">#ACABAB</color>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="141dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/app_theme"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardMaxElevation="@dimen/_10sdp">
+
+        <RelativeLayout
+            android:layout_width="137dp"
+            android:layout_height="149dp"
+            android:padding="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/food"
+                android:layout_width="111dp"
+                android:layout_height="100dp"
+                android:src="@drawable/food" />
+
+            <TextView
+                android:id="@+id/tv_dish_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="sans-serif"
+                android:padding="@dimen/_10sdp"
+                android:text="Yemek Adı"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20sdp" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
